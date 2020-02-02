@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MainBlock from './MainBlock'
 
 class Home  extends Component {
     state = { 
@@ -11,7 +12,9 @@ class Home  extends Component {
      }
     render() { 
         return (
-            <div>This is the Home component!</div>
+            <div>
+                <MainBlock/>
+            </div>
           );
     }
 }
