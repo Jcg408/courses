@@ -1,0 +1,16 @@
+.main-section {
+    background-color: #00A347;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #ffffff
+}
+#column1 h1 {
+    font-variant-caps: all-small-caps;
+}
+#column1 button {
+    background-color: white;
+    border: 3px;
+    border-radius: 6px;
+    border-color: rgb(3, 65, 3);
+    font-weight: 400;
+   
+}
