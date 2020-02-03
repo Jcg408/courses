@@ -4,10 +4,10 @@ import MainBlock from './MainBlock'
 class Home  extends Component {
     state = { 
         course_module: [
-            {id: 1, title: 'Set Up', description: 'This is a description', active: false},
-            {id: 2, title: 'React/Rails', description: 'This is a description', active: false},
-            {id: 3, title: 'Hello World', description: 'This is a description', active: false},
-            {id: 4, title: 'Routing', description: 'This is a description', active: false}
+            {id: 1, title: 'In the Beginning ', description: 'Planning the garden', active: false},
+            {id: 2, title: 'The Soil', description: 'Test and amend the soil', active: false},
+            {id: 3, title: 'Seeds and Seedlings', description: 'Choose your plants and plant methods', active: false},
+            {id: 4, title: 'Pests', description: 'Watch out for these buggers! ', active: false}
         ]
      }
     render() { 

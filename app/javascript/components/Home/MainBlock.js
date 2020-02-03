@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../../css/mainblock.css'
 
 const MainBlock = () => {
     return ( 
@@ -7,14 +8,15 @@ const MainBlock = () => {
                 <div className = 'row'>
                     <div className='col col-sm-12 col-md-5' id = 'column1'>
                         <div className='pt-4 mt-4'>
-                             < h1>First Column</h1>
-                       <p>Some kind of description</p>
+                            < h1>Organic Gardening</h1>
+                            <p>Beginners guide to organic gardening. Starting small with basic concepts, you can have a productive garden.</p>
                         </div>
+                        <button className='btn'>Get Started</button>
                     </div>
 
                     <div className='col col-sm-12 col-md-7' id = 'column2'>
                         <div className='pt-4 mt-4' text-center>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CjLb_t4Tqsw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/CjLb_t4Tqsw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                      </div>
                 </div>
