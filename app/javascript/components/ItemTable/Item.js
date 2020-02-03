@@ -13,7 +13,7 @@ const Item = props => {
                               <div className='col-md-4'>
                                  <Thumbnail />
                               </div>
-                              <div className='col-md-8'>
+                              <div className='col-md-8'> 
                             <h3>{props.title}</h3>
                             <p>{props.description}</p>
                             <div className='cta-wrapper'>
