@@ -1,3 +1,9 @@
-#thumbnail {
-    text-align: center;
+#episodes {
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+h3{
+    font-style: oblique;
 }
