@@ -6,8 +6,8 @@ const Item = props => {
     return (
         <div className='container'>
            <div className='row'>
-            <div className='col-md-10 offset-1' id='thumbnail'>
-                  <div className='card px-5'>
+            <div className='col-md-10' id='episodes'>
+                  <div className='card px-3'>
                            
                             <div className='row'>
                               <div className='col-md-4'>
