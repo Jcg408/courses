@@ -9,10 +9,11 @@ class Table extends Component {
     }
     render() { 
         const items = this.props.courses.map(item=> {
+            let handleChange = this.props.handleChange.bind(this,item)
             return (
                 item.active ?
-                <Active key={item.id} title={item.title} description={item.description}/> :
-                 <Item key={item.id} title={item.title} description={item.description}/>
+                <Active handleChange = {handleChange} key={item.id} title={item.title} description={item.description}/> :
+                 <Item handleChange = {handleChange}key={item.id} title={item.title} description={item.description}/>
             )        
         });
         
