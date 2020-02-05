@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Item from './Item'
+import Active from './Active'
 import '../../../css/table.css'
 
 class Table extends Component {
@@ -7,8 +8,12 @@ class Table extends Component {
         super(props);
     }
     render() { 
-        const items = this.props.courses.map(item=>{
-            return <Item key={item.id} title={item.title} description={item.description}/>
+        const items = this.props.courses.map(item=> {
+            return (
+                item.active ?
+                <Active key={item.id} title={item.title} description={item.description}/> :
+                 <Item key={item.id} title={item.title} description={item.description}/>
+            )        
         });
         
         return (  
