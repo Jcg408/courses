@@ -40,7 +40,7 @@ class Home extends Component {
         });
         item.active = !item.active;
        
-        console.log(courses)
+        this.setState({courses})
     };
 
     render() {
