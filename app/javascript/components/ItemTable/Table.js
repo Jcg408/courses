@@ -13,7 +13,7 @@ class Table extends Component {
         
         return (  
             <div className='container' id='table'>
-                <h2>Organic Gardening Series</h2>
+                <h2>Start Your Garden</h2>
                {items}
             </div>
         );
