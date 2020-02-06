@@ -16,7 +16,7 @@ const Item = props => {
                                 <h3>{props.title}</h3>
                                 <p>{props.description}</p>
                                 <div className='cta-wrapper'>
-                                    <button onClick ={props.handleChange} className='btn cta-btn'>Watch Video</button>
+                                    <button onClick ={props.handleChange} className='btn cta-btn'>Watch This Video</button>
                                 </div>
                             </div>
                         </div>

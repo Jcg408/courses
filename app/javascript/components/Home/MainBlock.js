@@ -11,7 +11,7 @@ const MainBlock = () => {
                             < h1>Organic Gardening</h1>
                             <p>Beginners guide to organic gardening. Starting small with basic concepts, you can have a productive garden.</p>
                         </div>
-                        <button className='btn'>Get Started</button>
+                        
                     </div>
 
                     <div className='col col-sm-12 col-md-7' id = 'column2'>
