@@ -3,8 +3,9 @@ class PagesController < ApplicationController
   end
 
   def episodes 
+
     @episodes = Course.first.episodes
 
-    render json: {data: @episodes}
+    render json: {episode: @episodes}
   end
 end
